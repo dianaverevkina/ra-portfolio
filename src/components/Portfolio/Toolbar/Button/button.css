@@ -1,0 +1,11 @@
+.filters__btn {
+  font-weight: 600;
+  background-color: white;
+  border: 1px solid grey;
+  padding: 0.3rem 0.5rem;
+}
+
+.filters__btn_selected {
+  background-color: grey;
+  color: white;
+}

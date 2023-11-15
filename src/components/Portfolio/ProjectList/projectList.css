@@ -1,0 +1,16 @@
+.project-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-list__item {
+  flex: 0 1 calc((100% - 2rem) / 3);
+}
+
+.project-list__item img{
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 10rem; 
+  object-fit: cover;
+}
